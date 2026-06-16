@@ -14,12 +14,21 @@
                      "bundleIdentifier":  "com.blulyk.FocusGeofence",
                      "developerName":  "Blulyk",
                      "subtitle":  "Sal de casa sin distracciones.",
-                     "localizedDescription":  "MoveLock ayuda a salir de casa bloqueando distracciones digitales hasta llegar fisicamente a un destino. Incluye onboarding, permisos guiados, dashboard, sesiones por pasos, destinos guardados, progreso y desbloqueo de emergencia con friccion.",
+                     "localizedDescription":  "MoveLock ayuda a salir de casa bloqueando distracciones digitales hasta llegar fisicamente a un destino. Esta version elimina datos demo, guarda historial local real, centra el mapa en la ubicacion del usuario y permite destinos personalizados con emoji, radio y horario automatico.",
                      "iconURL":  "https://raw.githubusercontent.com/Blulyk/FocusGeofence-Source/main/icon.png",
                      "tintColor":  "#2563EB",
                      "category":  "utilities",
-                     "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.3.4/FocusGeofence-altstore.ipa",
+                     "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.4.5/FocusGeofence-altstore.ipa",
                      "versions":  [
+                                      {
+                                          "version":  "1.4",
+                                          "buildVersion":  "5",
+                                          "date":  "2026-06-16T10:29:00+02:00",
+                                          "localizedDescription":  "Datos locales reales, historial persistido, destinos personalizables con nombre emoji radio y horario automatico, mapa sin Madrid por defecto, radio minimo 10m e iconos iOS completos.",
+                                          "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.4.5/FocusGeofence-altstore.ipa",
+                                          "size":  760101,
+                                          "minOSVersion":  "16.0"
+                                      },
                                       {
                                           "version":  "1.3",
                                           "buildVersion":  "4",
@@ -61,6 +70,14 @@
                  }
              ],
     "news":  [
+                 {
+                     "title":  "MoveLock 1.4",
+                     "identifier":  "movelock-1.4",
+                     "caption":  "Datos reales, mapa por ubicacion del usuario y destinos personalizados.",
+                     "date":  "2026-06-16T10:29:00+02:00",
+                     "appID":  "com.blulyk.FocusGeofence",
+                     "tintColor":  "#1F5EF0"
+                 },
                  {
                      "title":  "MoveLock 1.3",
                      "identifier":  "movelock-1.3",
