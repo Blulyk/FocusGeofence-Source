@@ -18,8 +18,17 @@
                      "iconURL":  "https://raw.githubusercontent.com/Blulyk/FocusGeofence-Source/main/icon.png",
                      "tintColor":  "#2563EB",
                      "category":  "utilities",
-                     "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.8.9/FocusGeofence-altstore.ipa",
+                     "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.9.10/FocusGeofence-altstore.ipa",
                      "versions":  [
+                                      {
+                                          "version":  "1.9",
+                                          "buildVersion":  "10",
+                                          "date":  "2026-06-16T21:35:00+02:00",
+                                          "localizedDescription":  "Anade mini calendario semanal con burbujas Liquid Glass: hoy azul, dias cumplidos verdes y dias sin ruta rojos. Incluye Widget Extension real para Live Activities y Dynamic Island con mensaje de distancia restante y candado.",
+                                          "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.9.10/FocusGeofence-altstore.ipa",
+                                          "size":  952889,
+                                          "minOSVersion":  "16.2"
+                                      },
                                       {
                                           "version":  "1.8",
                                           "buildVersion":  "9",
@@ -106,6 +115,14 @@
                  }
              ],
     "news":  [
+                 {
+                     "title":  "MoveLock 1.9",
+                     "identifier":  "movelock-1.9",
+                     "caption":  "Calendario semanal y Dynamic Island real.",
+                     "date":  "2026-06-16T21:35:00+02:00",
+                     "appID":  "com.blulyk.FocusGeofence",
+                     "tintColor":  "#1F5EF0"
+                 },
                  {
                      "title":  "MoveLock 1.8",
                      "identifier":  "movelock-1.8",
