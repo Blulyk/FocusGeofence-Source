@@ -18,8 +18,17 @@
                      "iconURL":  "https://raw.githubusercontent.com/Blulyk/FocusGeofence-Source/main/icon.png",
                      "tintColor":  "#2563EB",
                      "category":  "utilities",
-                     "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.6.7/FocusGeofence-altstore.ipa",
+                     "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.7.8/FocusGeofence-altstore.ipa",
                      "versions":  [
+                                      {
+                                          "version":  "1.7",
+                                          "buildVersion":  "8",
+                                          "date":  "2026-06-16T20:58:00+02:00",
+                                          "localizedDescription":  "Anade una pantalla de bloqueo inmersiva con mapa a pantalla completa, ruta hacia el destino, tarjetas de distancia y destino, boton de emergencia y acceso directo a Apple Maps.",
+                                          "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.7.8/FocusGeofence-altstore.ipa",
+                                          "size":  881414,
+                                          "minOSVersion":  "16.2"
+                                      },
                                       {
                                           "version":  "1.6",
                                           "buildVersion":  "7",
@@ -88,6 +97,14 @@
                  }
              ],
     "news":  [
+                 {
+                     "title":  "MoveLock 1.7",
+                     "identifier":  "movelock-1.7",
+                     "caption":  "Mapa de bloqueo a pantalla completa con ruta y emergencia.",
+                     "date":  "2026-06-16T20:58:00+02:00",
+                     "appID":  "com.blulyk.FocusGeofence",
+                     "tintColor":  "#1F5EF0"
+                 },
                  {
                      "title":  "MoveLock 1.6",
                      "identifier":  "movelock-1.6",
