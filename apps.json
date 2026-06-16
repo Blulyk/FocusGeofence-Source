@@ -18,8 +18,17 @@
                      "iconURL":  "https://raw.githubusercontent.com/Blulyk/FocusGeofence-Source/main/icon.png",
                      "tintColor":  "#2563EB",
                      "category":  "utilities",
-                     "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.7.8/FocusGeofence-altstore.ipa",
+                     "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.8.9/FocusGeofence-altstore.ipa",
                      "versions":  [
+                                      {
+                                          "version":  "1.8",
+                                          "buildVersion":  "9",
+                                          "date":  "2026-06-16T21:06:00+02:00",
+                                          "localizedDescription":  "Refina la pantalla bloqueada: las metricas pasan a ser dos cuadrados inferiores como las cards de inicio, con Liquid Glass nativo en iOS 26 y fallback material en iOS anteriores.",
+                                          "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.8.9/FocusGeofence-altstore.ipa",
+                                          "size":  895302,
+                                          "minOSVersion":  "16.2"
+                                      },
                                       {
                                           "version":  "1.7",
                                           "buildVersion":  "8",
@@ -97,6 +106,14 @@
                  }
              ],
     "news":  [
+                 {
+                     "title":  "MoveLock 1.8",
+                     "identifier":  "movelock-1.8",
+                     "caption":  "Dos cuadrados Liquid Glass en la pantalla bloqueada.",
+                     "date":  "2026-06-16T21:06:00+02:00",
+                     "appID":  "com.blulyk.FocusGeofence",
+                     "tintColor":  "#1F5EF0"
+                 },
                  {
                      "title":  "MoveLock 1.7",
                      "identifier":  "movelock-1.7",
