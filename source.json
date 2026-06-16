@@ -18,8 +18,17 @@
                      "iconURL":  "https://raw.githubusercontent.com/Blulyk/FocusGeofence-Source/main/icon.png",
                      "tintColor":  "#2563EB",
                      "category":  "utilities",
-                     "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.4.5/FocusGeofence-altstore.ipa",
+                     "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.5.6/FocusGeofence-altstore.ipa",
                      "versions":  [
+                                      {
+                                          "version":  "1.5",
+                                          "buildVersion":  "6",
+                                          "date":  "2026-06-16T10:49:00+02:00",
+                                          "localizedDescription":  "Corrige el guardado de sesiones programadas: los destinos con dias y horas elegidos quedan almacenados y se activan por horario, no inmediatamente. Reduce el parpadeo visual durante scroll y conserva preset, modo y seleccion de apps para activaciones automaticas.",
+                                          "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.5.6/FocusGeofence-altstore.ipa",
+                                          "size":  779876,
+                                          "minOSVersion":  "16.0"
+                                      },
                                       {
                                           "version":  "1.4",
                                           "buildVersion":  "5",
@@ -70,6 +79,14 @@
                  }
              ],
     "news":  [
+                 {
+                     "title":  "MoveLock 1.5",
+                     "identifier":  "movelock-1.5",
+                     "caption":  "Sesiones programadas reales: guardar ya no activa de inmediato.",
+                     "date":  "2026-06-16T10:49:00+02:00",
+                     "appID":  "com.blulyk.FocusGeofence",
+                     "tintColor":  "#1F5EF0"
+                 },
                  {
                      "title":  "MoveLock 1.4",
                      "identifier":  "movelock-1.4",
