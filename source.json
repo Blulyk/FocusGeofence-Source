@@ -1,0 +1,55 @@
+{
+    "name":  "Blulyk Apps",
+    "subtitle":  "Apps personales para SideStore",
+    "description":  "Repositorio publico de apps iOS firmables con AltStore y SideStore.",
+    "iconURL":  "https://raw.githubusercontent.com/Blulyk/FocusGeofence-Source/main/icon.png",
+    "website":  "https://github.com/Blulyk/FocusGeofence-Source",
+    "tintColor":  "#2563EB",
+    "featuredApps":  [
+                         "com.blulyk.FocusGeofence"
+                     ],
+    "apps":  [
+                 {
+                     "name":  "Focus Geofence",
+                     "bundleIdentifier":  "com.blulyk.FocusGeofence",
+                     "developerName":  "Blulyk",
+                     "subtitle":  "Bloquea apps hasta entrar en una ubicacion guardada.",
+                     "localizedDescription":  "Focus Geofence permite seleccionar apps que distraen con Screen Time, guardar ubicaciones desde un mapa y desbloquear automaticamente solo al entrar fisicamente en una zona configurada.",
+                     "iconURL":  "https://raw.githubusercontent.com/Blulyk/FocusGeofence-Source/main/icon.png",
+                     "tintColor":  "#2563EB",
+                     "category":  "utilities",
+                     "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.1.2/FocusGeofence-altstore.ipa",
+                     "versions":  [
+                                      {
+                                          "version":  "1.1",
+                                          "buildVersion":  "2",
+                                          "date":  "2026-06-16T08:34:00+02:00",
+                                          "localizedDescription":  "Anade selector obligatorio por mapa, ubicaciones guardadas personalizables, estados de permisos mas claros y una interfaz Liquid Glass mas estable.",
+                                          "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.1.2/FocusGeofence-altstore.ipa",
+                                          "size":  194965,
+                                          "minOSVersion":  "16.0"
+                                      }
+                                  ],
+                     "appPermissions":  {
+                                            "entitlements":  [
+                                                                 "com.apple.developer.family-controls"
+                                                             ],
+                                            "privacy":  {
+                                                            "NSLocationWhenInUseUsageDescription":  "Focus Geofence usa tu ubicacion para saber si estas dentro de una zona donde se permite desbloquear apps.",
+                                                            "NSLocationAlwaysAndWhenInUseUsageDescription":  "Focus Geofence necesita ubicacion siempre para volver a bloquear o desbloquear apps aunque no tengas la app abierta.",
+                                                            "NSLocationAlwaysUsageDescription":  "Focus Geofence necesita ubicacion siempre para monitorizar geocercas en segundo plano."
+                                                        }
+                                        }
+                 }
+             ],
+    "news":  [
+                 {
+                     "title":  "Focus Geofence 1.1",
+                     "identifier":  "focus-geofence-1.1",
+                     "caption":  "Mapa, ubicaciones guardadas e interfaz Liquid Glass revisada.",
+                     "date":  "2026-06-16T08:34:00+02:00",
+                     "appID":  "com.blulyk.FocusGeofence",
+                     "tintColor":  "#2563EB"
+                 }
+             ]
+}
