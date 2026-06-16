@@ -18,8 +18,17 @@
                      "iconURL":  "https://raw.githubusercontent.com/Blulyk/FocusGeofence-Source/main/icon.png",
                      "tintColor":  "#2563EB",
                      "category":  "utilities",
-                     "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.5.6/FocusGeofence-altstore.ipa",
+                     "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.6.7/FocusGeofence-altstore.ipa",
                      "versions":  [
+                                      {
+                                          "version":  "1.6",
+                                          "buildVersion":  "7",
+                                          "date":  "2026-06-16T12:08:00+02:00",
+                                          "localizedDescription":  "Anade perfil demo, sesion rapida, pildora inferior de estado bloqueado/desbloqueado, notificacion local al entrar en la zona y soporte base de ActivityKit para Live Activities. Requiere iOS 16.2 o superior.",
+                                          "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.6.7/FocusGeofence-altstore.ipa",
+                                          "size":  846066,
+                                          "minOSVersion":  "16.2"
+                                      },
                                       {
                                           "version":  "1.5",
                                           "buildVersion":  "6",
@@ -79,6 +88,14 @@
                  }
              ],
     "news":  [
+                 {
+                     "title":  "MoveLock 1.6",
+                     "identifier":  "movelock-1.6",
+                     "caption":  "Perfil demo, sesion rapida y pildora bloqueado/desbloqueado.",
+                     "date":  "2026-06-16T12:08:00+02:00",
+                     "appID":  "com.blulyk.FocusGeofence",
+                     "tintColor":  "#1F5EF0"
+                 },
                  {
                      "title":  "MoveLock 1.5",
                      "identifier":  "movelock-1.5",
