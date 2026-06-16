@@ -10,16 +10,25 @@
                      ],
     "apps":  [
                  {
-                     "name":  "Focus Geofence",
+                     "name":  "MoveLock",
                      "bundleIdentifier":  "com.blulyk.FocusGeofence",
                      "developerName":  "Blulyk",
-                     "subtitle":  "Bloquea apps hasta entrar en una ubicacion guardada.",
-                     "localizedDescription":  "Focus Geofence permite seleccionar apps que distraen con Screen Time, usar un modo estricto por categorias, guardar varias ubicaciones desde un mapa y desbloquear automaticamente solo al entrar fisicamente en una zona configurada.",
+                     "subtitle":  "Sal de casa sin distracciones.",
+                     "localizedDescription":  "MoveLock ayuda a salir de casa bloqueando distracciones digitales hasta llegar fisicamente a un destino. Incluye onboarding, permisos guiados, dashboard, sesiones por pasos, destinos guardados, progreso y desbloqueo de emergencia con friccion.",
                      "iconURL":  "https://raw.githubusercontent.com/Blulyk/FocusGeofence-Source/main/icon.png",
                      "tintColor":  "#2563EB",
                      "category":  "utilities",
-                     "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.2.3/FocusGeofence-altstore.ipa",
+                     "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.3.4/FocusGeofence-altstore.ipa",
                      "versions":  [
+                                      {
+                                          "version":  "1.3",
+                                          "buildVersion":  "4",
+                                          "date":  "2026-06-16T10:11:00+02:00",
+                                          "localizedDescription":  "Redisenada como app premium: onboarding, pantalla de permisos, dashboard, creador de sesion por pasos, mapa, lugares guardados, modo activo, emergencia, resumen, progreso y ajustes.",
+                                          "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.3.4/FocusGeofence-altstore.ipa",
+                                          "size":  619959,
+                                          "minOSVersion":  "16.0"
+                                      },
                                       {
                                           "version":  "1.2",
                                           "buildVersion":  "3",
@@ -52,6 +61,14 @@
                  }
              ],
     "news":  [
+                 {
+                     "title":  "MoveLock 1.3",
+                     "identifier":  "movelock-1.3",
+                     "caption":  "Interfaz completa tipo startup: onboarding, dashboard y creador de sesiones.",
+                     "date":  "2026-06-16T10:11:00+02:00",
+                     "appID":  "com.blulyk.FocusGeofence",
+                     "tintColor":  "#1F5EF0"
+                 },
                  {
                      "title":  "Focus Geofence 1.2",
                      "identifier":  "focus-geofence-1.2",
