@@ -14,12 +14,21 @@
                      "bundleIdentifier":  "com.blulyk.FocusGeofence",
                      "developerName":  "Blulyk",
                      "subtitle":  "Bloquea apps hasta entrar en una ubicacion guardada.",
-                     "localizedDescription":  "Focus Geofence permite seleccionar apps que distraen con Screen Time, guardar ubicaciones desde un mapa y desbloquear automaticamente solo al entrar fisicamente en una zona configurada.",
+                     "localizedDescription":  "Focus Geofence permite seleccionar apps que distraen con Screen Time, usar un modo estricto por categorias, guardar varias ubicaciones desde un mapa y desbloquear automaticamente solo al entrar fisicamente en una zona configurada.",
                      "iconURL":  "https://raw.githubusercontent.com/Blulyk/FocusGeofence-Source/main/icon.png",
                      "tintColor":  "#2563EB",
                      "category":  "utilities",
-                     "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.1.2/FocusGeofence-altstore.ipa",
+                     "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.2.3/FocusGeofence-altstore.ipa",
                      "versions":  [
+                                      {
+                                          "version":  "1.2",
+                                          "buildVersion":  "3",
+                                          "date":  "2026-06-16T09:19:00+02:00",
+                                          "localizedDescription":  "Corrige diagnostico de permisos Screen Time, centra el mapa en la ubicacion del usuario, permite crear multiples ubicaciones guardadas sin sobrescribir, anade modo estricto de bloqueo, icono iOS y tema claro/oscuro mas moderno.",
+                                          "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.2.3/FocusGeofence-altstore.ipa",
+                                          "size":  508740,
+                                          "minOSVersion":  "16.0"
+                                      },
                                       {
                                           "version":  "1.1",
                                           "buildVersion":  "2",
@@ -43,6 +52,14 @@
                  }
              ],
     "news":  [
+                 {
+                     "title":  "Focus Geofence 1.2",
+                     "identifier":  "focus-geofence-1.2",
+                     "caption":  "Mapa centrado, multiples ubicaciones, modo estricto e icono iOS.",
+                     "date":  "2026-06-16T09:19:00+02:00",
+                     "appID":  "com.blulyk.FocusGeofence",
+                     "tintColor":  "#2563EB"
+                 },
                  {
                      "title":  "Focus Geofence 1.1",
                      "identifier":  "focus-geofence-1.1",
