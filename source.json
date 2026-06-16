@@ -14,12 +14,21 @@
                      "bundleIdentifier":  "com.blulyk.FocusGeofence",
                      "developerName":  "Blulyk",
                      "subtitle":  "Sal de casa sin distracciones.",
-                     "localizedDescription":  "MoveLock ayuda a salir de casa bloqueando distracciones digitales hasta llegar fisicamente a un destino. Esta version elimina datos demo, guarda historial local real, centra el mapa en la ubicacion del usuario y permite destinos personalizados con emoji, radio y horario automatico.",
+                     "localizedDescription":  "MoveLock ayuda a salir de casa bloqueando distracciones digitales hasta llegar fisicamente a un destino. Esta version elimina Live Activities para simplificar instalacion con un solo App ID, permite editar destinos guardados y mejora el calendario semanal.",
                      "iconURL":  "https://raw.githubusercontent.com/Blulyk/FocusGeofence-Source/main/icon.png",
                      "tintColor":  "#2563EB",
                      "category":  "utilities",
-                     "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.9.10/FocusGeofence-altstore.ipa",
+                     "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.10.11/FocusGeofence-altstore.ipa",
                      "versions":  [
+                                      {
+                                          "version":  "1.10",
+                                          "buildVersion":  "11",
+                                          "date":  "2026-06-16T21:52:00+02:00",
+                                          "localizedDescription":  "Elimina Live Activities y Widget Extension para no requerir un App ID adicional. Anade edicion de destinos tocando sus tarjetas y ajusta el calendario semanal: hoy azul, dias futuros grises, dias cumplidos verdes y dias pasados sin ruta rojos.",
+                                          "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.10.11/FocusGeofence-altstore.ipa",
+                                          "size":  907174,
+                                          "minOSVersion":  "16.2"
+                                      },
                                       {
                                           "version":  "1.9",
                                           "buildVersion":  "10",
@@ -115,6 +124,14 @@
                  }
              ],
     "news":  [
+                 {
+                     "title":  "MoveLock 1.10",
+                     "identifier":  "movelock-1.10",
+                     "caption":  "Sin Live Activities, destinos editables y calendario con futuros en gris.",
+                     "date":  "2026-06-16T21:52:00+02:00",
+                     "appID":  "com.blulyk.FocusGeofence",
+                     "tintColor":  "#1F5EF0"
+                 },
                  {
                      "title":  "MoveLock 1.9",
                      "identifier":  "movelock-1.9",
