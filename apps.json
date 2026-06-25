@@ -6,9 +6,39 @@
     "website":  "https://github.com/Blulyk/FocusGeofence-Source",
     "tintColor":  "#2563EB",
     "featuredApps":  [
-                         "com.blulyk.FocusGeofence"
+                         "com.blulyk.FocusGeofence",
+                         "com.blulyk.CalTracker"
                      ],
     "apps":  [
+                 {
+                     "name":  "CalTracker",
+                     "bundleIdentifier":  "com.blulyk.CalTracker",
+                     "developerName":  "Blulyk",
+                     "subtitle":  "Nutricion local, clara y privada.",
+                     "localizedDescription":  "CalTracker es una app nativa para registrar comidas, agua y peso, consultar tu progreso, crear recetas y planificar la semana. Todos los datos se guardan en el iPhone. El analisis de fotos con Gemini y los codigos de barras con Open Food Facts son opcionales.",
+                     "iconURL":  "https://raw.githubusercontent.com/Blulyk/FocusGeofence-Source/main/caltracker-icon.png",
+                     "tintColor":  "#1F63F2",
+                     "category":  "health",
+                     "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/caltracker-v1.0.1/CalTracker.ipa",
+                     "versions":  [
+                                      {
+                                          "version":  "1.0",
+                                          "buildVersion":  "1",
+                                          "date":  "2026-06-25T09:35:00+02:00",
+                                          "localizedDescription":  "Primera version nativa con perfil local, objetivos caloricos y macros, registro manual, analisis de fotos con Gemini, escaner de codigos, historial, peso, agua, recetas, plan semanal y lista de compra.",
+                                          "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/caltracker-v1.0.1/CalTracker.ipa",
+                                          "size":  3656901,
+                                          "minOSVersion":  "17.0"
+                                      }
+                                  ],
+                     "appPermissions":  {
+                                            "entitlements":  [],
+                                            "privacy":  {
+                                                            "NSCameraUsageDescription":  "CalTracker usa la camara para leer codigos de barras de alimentos.",
+                                                            "NSPhotoLibraryUsageDescription":  "CalTracker necesita la foto que elijas para analizar una comida con Gemini."
+                                                        }
+                                        }
+                 },
                  {
                      "name":  "MoveLock",
                      "bundleIdentifier":  "com.blulyk.FocusGeofence",
@@ -133,6 +163,14 @@
                  }
              ],
     "news":  [
+                 {
+                     "title":  "CalTracker 1.0",
+                     "identifier":  "caltracker-1.0",
+                     "caption":  "Seguimiento nutricional nativo, privado y guardado en tu iPhone.",
+                     "date":  "2026-06-25T09:35:00+02:00",
+                     "appID":  "com.blulyk.CalTracker",
+                     "tintColor":  "#1F63F2"
+                 },
                  {
                      "title":  "MoveLock 1.11",
                      "identifier":  "movelock-1.11",
