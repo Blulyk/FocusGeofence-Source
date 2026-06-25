@@ -15,12 +15,21 @@
                      "bundleIdentifier":  "com.blulyk.CalTracker",
                      "developerName":  "Blulyk",
                      "subtitle":  "Nutricion local, clara y privada.",
-                     "localizedDescription":  "CalTracker combina el caracter visual de CalorieAI con una experiencia Apple nativa. Registra comidas, agua y peso, analiza fotos, consulta el historial, crea recetas y planifica la semana guardando tus datos en el iPhone.",
+                     "localizedDescription":  "CalTracker es un tracker nutricional nativo y privado con análisis editable por IA, fotos locales, restaurantes, buffet, recetas importables, planificación semanal e historial real guardado en el iPhone.",
                      "iconURL":  "https://raw.githubusercontent.com/Blulyk/FocusGeofence-Source/main/caltracker-icon.png",
                      "tintColor":  "#1F63F2",
                      "category":  "health",
-                     "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/caltracker-v1.1.2/CalTracker.ipa",
+                     "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/caltracker-v1.2.3/CalTracker.ipa",
                      "versions":  [
+                                      {
+                                          "version":  "1.2",
+                                          "buildVersion":  "3",
+                                          "date":  "2026-06-25T18:20:59+02:00",
+                                          "localizedDescription":  "Paridad funcional restaurada: análisis Gemini editable antes de guardar, fotografías locales de comidas y recetas, catálogo offline de restaurantes, sesiones buffet, importación de recetas por URL, planificación semanal con raciones, lista de compra generada, historial real mejorado y clave API enmascarada.",
+                                          "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/caltracker-v1.2.3/CalTracker.ipa",
+                                          "size":  4297549,
+                                          "minOSVersion":  "17.0"
+                                      },
                                       {
                                           "version":  "1.1",
                                           "buildVersion":  "2",
@@ -172,6 +181,14 @@
                  }
              ],
     "news":  [
+                 {
+                     "title":  "CalTracker 1.2",
+                     "identifier":  "caltracker-1.2",
+                     "caption":  "Análisis editable, fotos, buffet, restaurantes e importación de recetas.",
+                     "date":  "2026-06-25T18:20:59+02:00",
+                     "appID":  "com.blulyk.CalTracker",
+                     "tintColor":  "#FF6D12"
+                 },
                  {
                      "title":  "CalTracker 1.1",
                      "identifier":  "caltracker-1.1",
