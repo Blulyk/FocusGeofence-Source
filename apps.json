@@ -15,12 +15,21 @@
                      "bundleIdentifier":  "com.blulyk.CalTracker",
                      "developerName":  "Blulyk",
                      "subtitle":  "Nutricion local, clara y privada.",
-                     "localizedDescription":  "CalTracker es una app nativa para registrar comidas, agua y peso, consultar tu progreso, crear recetas y planificar la semana. Todos los datos se guardan en el iPhone. El analisis de fotos con Gemini y los codigos de barras con Open Food Facts son opcionales.",
+                     "localizedDescription":  "CalTracker combina el caracter visual de CalorieAI con una experiencia Apple nativa. Registra comidas, agua y peso, analiza fotos, consulta el historial, crea recetas y planifica la semana guardando tus datos en el iPhone.",
                      "iconURL":  "https://raw.githubusercontent.com/Blulyk/FocusGeofence-Source/main/caltracker-icon.png",
                      "tintColor":  "#1F63F2",
                      "category":  "health",
-                     "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/caltracker-v1.0.1/CalTracker.ipa",
+                     "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/caltracker-v1.1.2/CalTracker.ipa",
                      "versions":  [
+                                      {
+                                          "version":  "1.1",
+                                          "buildVersion":  "2",
+                                          "date":  "2026-06-25T10:36:00+02:00",
+                                          "localizedDescription":  "Rediseno completo inspirado en CalorieAI y adaptado a Apple: nuevo Inicio con calendario y balance nutricional, Registro por foto, codigo o manual, Recetario visual, Historial mensual, Perfil modular, modo claro y oscuro y Liquid Glass en iOS 26.",
+                                          "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/caltracker-v1.1.2/CalTracker.ipa",
+                                          "size":  4004309,
+                                          "minOSVersion":  "17.0"
+                                      },
                                       {
                                           "version":  "1.0",
                                           "buildVersion":  "1",
@@ -163,6 +172,14 @@
                  }
              ],
     "news":  [
+                 {
+                     "title":  "CalTracker 1.1",
+                     "identifier":  "caltracker-1.1",
+                     "caption":  "Nueva interfaz inspirada en CalorieAI con diseno Apple nativo.",
+                     "date":  "2026-06-25T10:36:00+02:00",
+                     "appID":  "com.blulyk.CalTracker",
+                     "tintColor":  "#FF6D12"
+                 },
                  {
                      "title":  "CalTracker 1.0",
                      "identifier":  "caltracker-1.0",
