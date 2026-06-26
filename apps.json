@@ -1,297 +1,314 @@
 {
-    "name":  "Blulyk Apps",
-    "subtitle":  "Apps personales para SideStore",
-    "description":  "Repositorio publico de apps iOS firmables con AltStore y SideStore.",
-    "iconURL":  "https://raw.githubusercontent.com/Blulyk/FocusGeofence-Source/main/icon.png",
-    "website":  "https://github.com/Blulyk/FocusGeofence-Source",
-    "tintColor":  "#2563EB",
-    "featuredApps":  [
-                         "com.blulyk.FocusGeofence",
-                         "com.blulyk.CalTracker"
-                     ],
-    "apps":  [
-                 {
-                     "name":  "CalTracker",
-                     "bundleIdentifier":  "com.blulyk.CalTracker",
-                     "developerName":  "Blulyk",
-                     "subtitle":  "Nutricion local, clara y privada.",
-                     "localizedDescription":  "CalTracker es un tracker nutricional nativo y privado con análisis editable por IA, fotos locales, restaurantes, buffet, recetas importables, planificación semanal e historial real guardado en el iPhone.",
-                     "iconURL":  "https://raw.githubusercontent.com/Blulyk/FocusGeofence-Source/main/caltracker-icon.png",
-                     "tintColor":  "#1F63F2",
-                     "category":  "health",
-                     "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/caltracker-v1.2.3/CalTracker.ipa",
-                     "versions":  [
-                                      {
-                                          "version":  "1.2",
-                                          "buildVersion":  "3",
-                                          "date":  "2026-06-25T18:20:59+02:00",
-                                          "localizedDescription":  "Paridad funcional restaurada: análisis Gemini editable antes de guardar, fotografías locales de comidas y recetas, catálogo offline de restaurantes, sesiones buffet, importación de recetas por URL, planificación semanal con raciones, lista de compra generada, historial real mejorado y clave API enmascarada.",
-                                          "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/caltracker-v1.2.3/CalTracker.ipa",
-                                          "size":  4297549,
-                                          "minOSVersion":  "17.0"
-                                      },
-                                      {
-                                          "version":  "1.1",
-                                          "buildVersion":  "2",
-                                          "date":  "2026-06-25T10:36:00+02:00",
-                                          "localizedDescription":  "Rediseno completo inspirado en CalorieAI y adaptado a Apple: nuevo Inicio con calendario y balance nutricional, Registro por foto, codigo o manual, Recetario visual, Historial mensual, Perfil modular, modo claro y oscuro y Liquid Glass en iOS 26.",
-                                          "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/caltracker-v1.1.2/CalTracker.ipa",
-                                          "size":  4004309,
-                                          "minOSVersion":  "17.0"
-                                      },
-                                      {
-                                          "version":  "1.0",
-                                          "buildVersion":  "1",
-                                          "date":  "2026-06-25T09:35:00+02:00",
-                                          "localizedDescription":  "Primera version nativa con perfil local, objetivos caloricos y macros, registro manual, analisis de fotos con Gemini, escaner de codigos, historial, peso, agua, recetas, plan semanal y lista de compra.",
-                                          "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/caltracker-v1.0.1/CalTracker.ipa",
-                                          "size":  3656901,
-                                          "minOSVersion":  "17.0"
-                                      }
-                                  ],
-                     "appPermissions":  {
-                                            "entitlements":  [],
-                                            "privacy":  {
-                                                            "NSCameraUsageDescription":  "CalTracker usa la camara para leer codigos de barras de alimentos.",
-                                                            "NSPhotoLibraryUsageDescription":  "CalTracker necesita la foto que elijas para analizar una comida con Gemini."
-                                                        }
-                                        }
-                 },
-                 {
-                     "name":  "MoveLock",
-                     "bundleIdentifier":  "com.blulyk.FocusGeofence",
-                     "developerName":  "Blulyk",
-                     "subtitle":  "Sal de casa sin distracciones.",
-                     "localizedDescription":  "MoveLock ayuda a salir de casa bloqueando distracciones digitales hasta llegar fisicamente a un destino. Esta version pule bugs visuales, estabilidad de sesiones, mapas y assets de icono.",
-                     "iconURL":  "https://raw.githubusercontent.com/Blulyk/FocusGeofence-Source/main/icon.png",
-                     "tintColor":  "#2563EB",
-                     "category":  "utilities",
-                     "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.11.12/FocusGeofence-altstore.ipa",
-                     "versions":  [
-                                      {
-                                          "version":  "1.11",
-                                          "buildVersion":  "12",
-                                          "date":  "2026-06-16T22:09:00+02:00",
-                                          "localizedDescription":  "Barrido de bugs visuales y de estado: aplica el bloqueo inmediatamente al activar sesion, evita duplicar completados al salir y reentrar, reduce recalculos/parpadeos en mapas y rutas, elimina controles de horario duplicados y limpia assets de icono obsoletos.",
-                                          "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.11.12/FocusGeofence-altstore.ipa",
-                                          "size":  894548,
-                                          "minOSVersion":  "16.2"
-                                      },
-                                      {
-                                          "version":  "1.10",
-                                          "buildVersion":  "11",
-                                          "date":  "2026-06-16T21:52:00+02:00",
-                                          "localizedDescription":  "Elimina Live Activities y Widget Extension para no requerir un App ID adicional. Anade edicion de destinos tocando sus tarjetas y ajusta el calendario semanal: hoy azul, dias futuros grises, dias cumplidos verdes y dias pasados sin ruta rojos.",
-                                          "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.10.11/FocusGeofence-altstore.ipa",
-                                          "size":  907174,
-                                          "minOSVersion":  "16.2"
-                                      },
-                                      {
-                                          "version":  "1.9",
-                                          "buildVersion":  "10",
-                                          "date":  "2026-06-16T21:35:00+02:00",
-                                          "localizedDescription":  "Anade mini calendario semanal con burbujas Liquid Glass: hoy azul, dias cumplidos verdes y dias sin ruta rojos. Incluye Widget Extension real para Live Activities y Dynamic Island con mensaje de distancia restante y candado.",
-                                          "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.9.10/FocusGeofence-altstore.ipa",
-                                          "size":  952889,
-                                          "minOSVersion":  "16.2"
-                                      },
-                                      {
-                                          "version":  "1.8",
-                                          "buildVersion":  "9",
-                                          "date":  "2026-06-16T21:06:00+02:00",
-                                          "localizedDescription":  "Refina la pantalla bloqueada: las metricas pasan a ser dos cuadrados inferiores como las cards de inicio, con Liquid Glass nativo en iOS 26 y fallback material en iOS anteriores.",
-                                          "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.8.9/FocusGeofence-altstore.ipa",
-                                          "size":  895302,
-                                          "minOSVersion":  "16.2"
-                                      },
-                                      {
-                                          "version":  "1.7",
-                                          "buildVersion":  "8",
-                                          "date":  "2026-06-16T20:58:00+02:00",
-                                          "localizedDescription":  "Anade una pantalla de bloqueo inmersiva con mapa a pantalla completa, ruta hacia el destino, tarjetas de distancia y destino, boton de emergencia y acceso directo a Apple Maps.",
-                                          "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.7.8/FocusGeofence-altstore.ipa",
-                                          "size":  881414,
-                                          "minOSVersion":  "16.2"
-                                      },
-                                      {
-                                          "version":  "1.6",
-                                          "buildVersion":  "7",
-                                          "date":  "2026-06-16T12:08:00+02:00",
-                                          "localizedDescription":  "Anade perfil demo, sesion rapida, pildora inferior de estado bloqueado/desbloqueado, notificacion local al entrar en la zona y soporte base de ActivityKit para Live Activities. Requiere iOS 16.2 o superior.",
-                                          "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.6.7/FocusGeofence-altstore.ipa",
-                                          "size":  846066,
-                                          "minOSVersion":  "16.2"
-                                      },
-                                      {
-                                          "version":  "1.5",
-                                          "buildVersion":  "6",
-                                          "date":  "2026-06-16T10:49:00+02:00",
-                                          "localizedDescription":  "Corrige el guardado de sesiones programadas: los destinos con dias y horas elegidos quedan almacenados y se activan por horario, no inmediatamente. Reduce el parpadeo visual durante scroll y conserva preset, modo y seleccion de apps para activaciones automaticas.",
-                                          "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.5.6/FocusGeofence-altstore.ipa",
-                                          "size":  779876,
-                                          "minOSVersion":  "16.0"
-                                      },
-                                      {
-                                          "version":  "1.4",
-                                          "buildVersion":  "5",
-                                          "date":  "2026-06-16T10:29:00+02:00",
-                                          "localizedDescription":  "Datos locales reales, historial persistido, destinos personalizables con nombre emoji radio y horario automatico, mapa sin Madrid por defecto, radio minimo 10m e iconos iOS completos.",
-                                          "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.4.5/FocusGeofence-altstore.ipa",
-                                          "size":  760101,
-                                          "minOSVersion":  "16.0"
-                                      },
-                                      {
-                                          "version":  "1.3",
-                                          "buildVersion":  "4",
-                                          "date":  "2026-06-16T10:11:00+02:00",
-                                          "localizedDescription":  "Redisenada como app premium: onboarding, pantalla de permisos, dashboard, creador de sesion por pasos, mapa, lugares guardados, modo activo, emergencia, resumen, progreso y ajustes.",
-                                          "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.3.4/FocusGeofence-altstore.ipa",
-                                          "size":  619959,
-                                          "minOSVersion":  "16.0"
-                                      },
-                                      {
-                                          "version":  "1.2",
-                                          "buildVersion":  "3",
-                                          "date":  "2026-06-16T09:19:00+02:00",
-                                          "localizedDescription":  "Corrige diagnostico de permisos Screen Time, centra el mapa en la ubicacion del usuario, permite crear multiples ubicaciones guardadas sin sobrescribir, anade modo estricto de bloqueo, icono iOS y tema claro/oscuro mas moderno.",
-                                          "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.2.3/FocusGeofence-altstore.ipa",
-                                          "size":  508740,
-                                          "minOSVersion":  "16.0"
-                                      },
-                                      {
-                                          "version":  "1.1",
-                                          "buildVersion":  "2",
-                                          "date":  "2026-06-16T08:34:00+02:00",
-                                          "localizedDescription":  "Anade selector obligatorio por mapa, ubicaciones guardadas personalizables, estados de permisos mas claros y una interfaz Liquid Glass mas estable.",
-                                          "downloadURL":  "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.1.2/FocusGeofence-altstore.ipa",
-                                          "size":  194965,
-                                          "minOSVersion":  "16.0"
-                                      }
-                                  ],
-                     "appPermissions":  {
-                                            "entitlements":  [
-                                                                 "com.apple.developer.family-controls"
-                                                             ],
-                                            "privacy":  {
-                                                            "NSLocationWhenInUseUsageDescription":  "Focus Geofence usa tu ubicacion para saber si estas dentro de una zona donde se permite desbloquear apps.",
-                                                            "NSLocationAlwaysAndWhenInUseUsageDescription":  "Focus Geofence necesita ubicacion siempre para volver a bloquear o desbloquear apps aunque no tengas la app abierta.",
-                                                            "NSLocationAlwaysUsageDescription":  "Focus Geofence necesita ubicacion siempre para monitorizar geocercas en segundo plano."
-                                                        }
-                                        }
-                 }
-             ],
-    "news":  [
-                 {
-                     "title":  "CalTracker 1.2",
-                     "identifier":  "caltracker-1.2",
-                     "caption":  "Análisis editable, fotos, buffet, restaurantes e importación de recetas.",
-                     "date":  "2026-06-25T18:20:59+02:00",
-                     "appID":  "com.blulyk.CalTracker",
-                     "tintColor":  "#FF6D12"
-                 },
-                 {
-                     "title":  "CalTracker 1.1",
-                     "identifier":  "caltracker-1.1",
-                     "caption":  "Nueva interfaz inspirada en CalorieAI con diseno Apple nativo.",
-                     "date":  "2026-06-25T10:36:00+02:00",
-                     "appID":  "com.blulyk.CalTracker",
-                     "tintColor":  "#FF6D12"
-                 },
-                 {
-                     "title":  "CalTracker 1.0",
-                     "identifier":  "caltracker-1.0",
-                     "caption":  "Seguimiento nutricional nativo, privado y guardado en tu iPhone.",
-                     "date":  "2026-06-25T09:35:00+02:00",
-                     "appID":  "com.blulyk.CalTracker",
-                     "tintColor":  "#1F63F2"
-                 },
-                 {
-                     "title":  "MoveLock 1.11",
-                     "identifier":  "movelock-1.11",
-                     "caption":  "Barrido de bugs visuales, mapas mas estables y sesiones sin duplicados.",
-                     "date":  "2026-06-16T22:09:00+02:00",
-                     "appID":  "com.blulyk.FocusGeofence",
-                     "tintColor":  "#1F5EF0"
-                 },
-                 {
-                     "title":  "MoveLock 1.10",
-                     "identifier":  "movelock-1.10",
-                     "caption":  "Sin Live Activities, destinos editables y calendario con futuros en gris.",
-                     "date":  "2026-06-16T21:52:00+02:00",
-                     "appID":  "com.blulyk.FocusGeofence",
-                     "tintColor":  "#1F5EF0"
-                 },
-                 {
-                     "title":  "MoveLock 1.9",
-                     "identifier":  "movelock-1.9",
-                     "caption":  "Calendario semanal y Dynamic Island real.",
-                     "date":  "2026-06-16T21:35:00+02:00",
-                     "appID":  "com.blulyk.FocusGeofence",
-                     "tintColor":  "#1F5EF0"
-                 },
-                 {
-                     "title":  "MoveLock 1.8",
-                     "identifier":  "movelock-1.8",
-                     "caption":  "Dos cuadrados Liquid Glass en la pantalla bloqueada.",
-                     "date":  "2026-06-16T21:06:00+02:00",
-                     "appID":  "com.blulyk.FocusGeofence",
-                     "tintColor":  "#1F5EF0"
-                 },
-                 {
-                     "title":  "MoveLock 1.7",
-                     "identifier":  "movelock-1.7",
-                     "caption":  "Mapa de bloqueo a pantalla completa con ruta y emergencia.",
-                     "date":  "2026-06-16T20:58:00+02:00",
-                     "appID":  "com.blulyk.FocusGeofence",
-                     "tintColor":  "#1F5EF0"
-                 },
-                 {
-                     "title":  "MoveLock 1.6",
-                     "identifier":  "movelock-1.6",
-                     "caption":  "Perfil demo, sesion rapida y pildora bloqueado/desbloqueado.",
-                     "date":  "2026-06-16T12:08:00+02:00",
-                     "appID":  "com.blulyk.FocusGeofence",
-                     "tintColor":  "#1F5EF0"
-                 },
-                 {
-                     "title":  "MoveLock 1.5",
-                     "identifier":  "movelock-1.5",
-                     "caption":  "Sesiones programadas reales: guardar ya no activa de inmediato.",
-                     "date":  "2026-06-16T10:49:00+02:00",
-                     "appID":  "com.blulyk.FocusGeofence",
-                     "tintColor":  "#1F5EF0"
-                 },
-                 {
-                     "title":  "MoveLock 1.4",
-                     "identifier":  "movelock-1.4",
-                     "caption":  "Datos reales, mapa por ubicacion del usuario y destinos personalizados.",
-                     "date":  "2026-06-16T10:29:00+02:00",
-                     "appID":  "com.blulyk.FocusGeofence",
-                     "tintColor":  "#1F5EF0"
-                 },
-                 {
-                     "title":  "MoveLock 1.3",
-                     "identifier":  "movelock-1.3",
-                     "caption":  "Interfaz completa tipo startup: onboarding, dashboard y creador de sesiones.",
-                     "date":  "2026-06-16T10:11:00+02:00",
-                     "appID":  "com.blulyk.FocusGeofence",
-                     "tintColor":  "#1F5EF0"
-                 },
-                 {
-                     "title":  "Focus Geofence 1.2",
-                     "identifier":  "focus-geofence-1.2",
-                     "caption":  "Mapa centrado, multiples ubicaciones, modo estricto e icono iOS.",
-                     "date":  "2026-06-16T09:19:00+02:00",
-                     "appID":  "com.blulyk.FocusGeofence",
-                     "tintColor":  "#2563EB"
-                 },
-                 {
-                     "title":  "Focus Geofence 1.1",
-                     "identifier":  "focus-geofence-1.1",
-                     "caption":  "Mapa, ubicaciones guardadas e interfaz Liquid Glass revisada.",
-                     "date":  "2026-06-16T08:34:00+02:00",
-                     "appID":  "com.blulyk.FocusGeofence",
-                     "tintColor":  "#2563EB"
-                 }
-             ]
+  "name": "Blulyk Apps",
+  "subtitle": "Apps personales para SideStore",
+  "description": "Repositorio publico de apps iOS firmables con AltStore y SideStore.",
+  "iconURL": "https://raw.githubusercontent.com/Blulyk/FocusGeofence-Source/main/icon.png",
+  "website": "https://github.com/Blulyk/FocusGeofence-Source",
+  "tintColor": "#2563EB",
+  "featuredApps": [
+    "com.blulyk.FocusGeofence",
+    "com.blulyk.CalTracker"
+  ],
+  "apps": [
+    {
+      "name": "CalTracker",
+      "bundleIdentifier": "com.blulyk.CalTracker",
+      "developerName": "Blulyk",
+      "subtitle": "Nutricion local, clara y privada.",
+      "localizedDescription": "CalTracker es un tracker nutricional nativo y privado con análisis editable por IA, fotos locales, restaurantes, buffet, recetas importables, planificación semanal e historial real guardado en el iPhone.",
+      "iconURL": "https://raw.githubusercontent.com/Blulyk/FocusGeofence-Source/main/caltracker-icon.png",
+      "tintColor": "#1F63F2",
+      "category": "health",
+      "downloadURL": "https://github.com/Blulyk/FocusGeofence-Source/releases/download/caltracker-v1.3.4/CalTracker.ipa",
+      "versions": [
+        {
+          "version": "1.3",
+          "buildVersion": "4",
+          "date": "2026-06-26T08:21:06+02:00",
+          "localizedDescription": "Redisenamos la cabecera diaria: anillo segmentado por comidas, contador de comidas consumidas y tarjeta separada para el reparto de macros.",
+          "downloadURL": "https://github.com/Blulyk/FocusGeofence-Source/releases/download/caltracker-v1.3.4/CalTracker.ipa",
+          "size": 4313367,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "1.2",
+          "buildVersion": "3",
+          "date": "2026-06-25T18:20:59+02:00",
+          "localizedDescription": "Paridad funcional restaurada: análisis Gemini editable antes de guardar, fotografías locales de comidas y recetas, catálogo offline de restaurantes, sesiones buffet, importación de recetas por URL, planificación semanal con raciones, lista de compra generada, historial real mejorado y clave API enmascarada.",
+          "downloadURL": "https://github.com/Blulyk/FocusGeofence-Source/releases/download/caltracker-v1.2.3/CalTracker.ipa",
+          "size": 4297549,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "1.1",
+          "buildVersion": "2",
+          "date": "2026-06-25T10:36:00+02:00",
+          "localizedDescription": "Rediseno completo inspirado en CalorieAI y adaptado a Apple: nuevo Inicio con calendario y balance nutricional, Registro por foto, codigo o manual, Recetario visual, Historial mensual, Perfil modular, modo claro y oscuro y Liquid Glass en iOS 26.",
+          "downloadURL": "https://github.com/Blulyk/FocusGeofence-Source/releases/download/caltracker-v1.1.2/CalTracker.ipa",
+          "size": 4004309,
+          "minOSVersion": "17.0"
+        },
+        {
+          "version": "1.0",
+          "buildVersion": "1",
+          "date": "2026-06-25T09:35:00+02:00",
+          "localizedDescription": "Primera version nativa con perfil local, objetivos caloricos y macros, registro manual, analisis de fotos con Gemini, escaner de codigos, historial, peso, agua, recetas, plan semanal y lista de compra.",
+          "downloadURL": "https://github.com/Blulyk/FocusGeofence-Source/releases/download/caltracker-v1.0.1/CalTracker.ipa",
+          "size": 3656901,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSCameraUsageDescription": "CalTracker usa la camara para leer codigos de barras de alimentos.",
+          "NSPhotoLibraryUsageDescription": "CalTracker necesita la foto que elijas para analizar una comida con Gemini."
+        }
+      }
+    },
+    {
+      "name": "MoveLock",
+      "bundleIdentifier": "com.blulyk.FocusGeofence",
+      "developerName": "Blulyk",
+      "subtitle": "Sal de casa sin distracciones.",
+      "localizedDescription": "MoveLock ayuda a salir de casa bloqueando distracciones digitales hasta llegar fisicamente a un destino. Esta version pule bugs visuales, estabilidad de sesiones, mapas y assets de icono.",
+      "iconURL": "https://raw.githubusercontent.com/Blulyk/FocusGeofence-Source/main/icon.png",
+      "tintColor": "#2563EB",
+      "category": "utilities",
+      "downloadURL": "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.11.12/FocusGeofence-altstore.ipa",
+      "versions": [
+        {
+          "version": "1.11",
+          "buildVersion": "12",
+          "date": "2026-06-16T22:09:00+02:00",
+          "localizedDescription": "Barrido de bugs visuales y de estado: aplica el bloqueo inmediatamente al activar sesion, evita duplicar completados al salir y reentrar, reduce recalculos/parpadeos en mapas y rutas, elimina controles de horario duplicados y limpia assets de icono obsoletos.",
+          "downloadURL": "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.11.12/FocusGeofence-altstore.ipa",
+          "size": 894548,
+          "minOSVersion": "16.2"
+        },
+        {
+          "version": "1.10",
+          "buildVersion": "11",
+          "date": "2026-06-16T21:52:00+02:00",
+          "localizedDescription": "Elimina Live Activities y Widget Extension para no requerir un App ID adicional. Anade edicion de destinos tocando sus tarjetas y ajusta el calendario semanal: hoy azul, dias futuros grises, dias cumplidos verdes y dias pasados sin ruta rojos.",
+          "downloadURL": "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.10.11/FocusGeofence-altstore.ipa",
+          "size": 907174,
+          "minOSVersion": "16.2"
+        },
+        {
+          "version": "1.9",
+          "buildVersion": "10",
+          "date": "2026-06-16T21:35:00+02:00",
+          "localizedDescription": "Anade mini calendario semanal con burbujas Liquid Glass: hoy azul, dias cumplidos verdes y dias sin ruta rojos. Incluye Widget Extension real para Live Activities y Dynamic Island con mensaje de distancia restante y candado.",
+          "downloadURL": "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.9.10/FocusGeofence-altstore.ipa",
+          "size": 952889,
+          "minOSVersion": "16.2"
+        },
+        {
+          "version": "1.8",
+          "buildVersion": "9",
+          "date": "2026-06-16T21:06:00+02:00",
+          "localizedDescription": "Refina la pantalla bloqueada: las metricas pasan a ser dos cuadrados inferiores como las cards de inicio, con Liquid Glass nativo en iOS 26 y fallback material en iOS anteriores.",
+          "downloadURL": "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.8.9/FocusGeofence-altstore.ipa",
+          "size": 895302,
+          "minOSVersion": "16.2"
+        },
+        {
+          "version": "1.7",
+          "buildVersion": "8",
+          "date": "2026-06-16T20:58:00+02:00",
+          "localizedDescription": "Anade una pantalla de bloqueo inmersiva con mapa a pantalla completa, ruta hacia el destino, tarjetas de distancia y destino, boton de emergencia y acceso directo a Apple Maps.",
+          "downloadURL": "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.7.8/FocusGeofence-altstore.ipa",
+          "size": 881414,
+          "minOSVersion": "16.2"
+        },
+        {
+          "version": "1.6",
+          "buildVersion": "7",
+          "date": "2026-06-16T12:08:00+02:00",
+          "localizedDescription": "Anade perfil demo, sesion rapida, pildora inferior de estado bloqueado/desbloqueado, notificacion local al entrar en la zona y soporte base de ActivityKit para Live Activities. Requiere iOS 16.2 o superior.",
+          "downloadURL": "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.6.7/FocusGeofence-altstore.ipa",
+          "size": 846066,
+          "minOSVersion": "16.2"
+        },
+        {
+          "version": "1.5",
+          "buildVersion": "6",
+          "date": "2026-06-16T10:49:00+02:00",
+          "localizedDescription": "Corrige el guardado de sesiones programadas: los destinos con dias y horas elegidos quedan almacenados y se activan por horario, no inmediatamente. Reduce el parpadeo visual durante scroll y conserva preset, modo y seleccion de apps para activaciones automaticas.",
+          "downloadURL": "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.5.6/FocusGeofence-altstore.ipa",
+          "size": 779876,
+          "minOSVersion": "16.0"
+        },
+        {
+          "version": "1.4",
+          "buildVersion": "5",
+          "date": "2026-06-16T10:29:00+02:00",
+          "localizedDescription": "Datos locales reales, historial persistido, destinos personalizables con nombre emoji radio y horario automatico, mapa sin Madrid por defecto, radio minimo 10m e iconos iOS completos.",
+          "downloadURL": "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.4.5/FocusGeofence-altstore.ipa",
+          "size": 760101,
+          "minOSVersion": "16.0"
+        },
+        {
+          "version": "1.3",
+          "buildVersion": "4",
+          "date": "2026-06-16T10:11:00+02:00",
+          "localizedDescription": "Redisenada como app premium: onboarding, pantalla de permisos, dashboard, creador de sesion por pasos, mapa, lugares guardados, modo activo, emergencia, resumen, progreso y ajustes.",
+          "downloadURL": "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.3.4/FocusGeofence-altstore.ipa",
+          "size": 619959,
+          "minOSVersion": "16.0"
+        },
+        {
+          "version": "1.2",
+          "buildVersion": "3",
+          "date": "2026-06-16T09:19:00+02:00",
+          "localizedDescription": "Corrige diagnostico de permisos Screen Time, centra el mapa en la ubicacion del usuario, permite crear multiples ubicaciones guardadas sin sobrescribir, anade modo estricto de bloqueo, icono iOS y tema claro/oscuro mas moderno.",
+          "downloadURL": "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.2.3/FocusGeofence-altstore.ipa",
+          "size": 508740,
+          "minOSVersion": "16.0"
+        },
+        {
+          "version": "1.1",
+          "buildVersion": "2",
+          "date": "2026-06-16T08:34:00+02:00",
+          "localizedDescription": "Anade selector obligatorio por mapa, ubicaciones guardadas personalizables, estados de permisos mas claros y una interfaz Liquid Glass mas estable.",
+          "downloadURL": "https://github.com/Blulyk/FocusGeofence-Source/releases/download/v1.1.2/FocusGeofence-altstore.ipa",
+          "size": 194965,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.developer.family-controls"
+        ],
+        "privacy": {
+          "NSLocationWhenInUseUsageDescription": "Focus Geofence usa tu ubicacion para saber si estas dentro de una zona donde se permite desbloquear apps.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "Focus Geofence necesita ubicacion siempre para volver a bloquear o desbloquear apps aunque no tengas la app abierta.",
+          "NSLocationAlwaysUsageDescription": "Focus Geofence necesita ubicacion siempre para monitorizar geocercas en segundo plano."
+        }
+      }
+    }
+  ],
+  "news": [
+    {
+      "title": "CalTracker 1.3",
+      "identifier": "caltracker-1.3",
+      "caption": "Nueva cabecera diaria con anillo por comidas y macros separados.",
+      "date": "2026-06-26T08:21:06+02:00",
+      "appID": "com.blulyk.CalTracker",
+      "tintColor": "#1F63F2"
+    },
+    {
+      "title": "CalTracker 1.2",
+      "identifier": "caltracker-1.2",
+      "caption": "Análisis editable, fotos, buffet, restaurantes e importación de recetas.",
+      "date": "2026-06-25T18:20:59+02:00",
+      "appID": "com.blulyk.CalTracker",
+      "tintColor": "#FF6D12"
+    },
+    {
+      "title": "CalTracker 1.1",
+      "identifier": "caltracker-1.1",
+      "caption": "Nueva interfaz inspirada en CalorieAI con diseno Apple nativo.",
+      "date": "2026-06-25T10:36:00+02:00",
+      "appID": "com.blulyk.CalTracker",
+      "tintColor": "#FF6D12"
+    },
+    {
+      "title": "CalTracker 1.0",
+      "identifier": "caltracker-1.0",
+      "caption": "Seguimiento nutricional nativo, privado y guardado en tu iPhone.",
+      "date": "2026-06-25T09:35:00+02:00",
+      "appID": "com.blulyk.CalTracker",
+      "tintColor": "#1F63F2"
+    },
+    {
+      "title": "MoveLock 1.11",
+      "identifier": "movelock-1.11",
+      "caption": "Barrido de bugs visuales, mapas mas estables y sesiones sin duplicados.",
+      "date": "2026-06-16T22:09:00+02:00",
+      "appID": "com.blulyk.FocusGeofence",
+      "tintColor": "#1F5EF0"
+    },
+    {
+      "title": "MoveLock 1.10",
+      "identifier": "movelock-1.10",
+      "caption": "Sin Live Activities, destinos editables y calendario con futuros en gris.",
+      "date": "2026-06-16T21:52:00+02:00",
+      "appID": "com.blulyk.FocusGeofence",
+      "tintColor": "#1F5EF0"
+    },
+    {
+      "title": "MoveLock 1.9",
+      "identifier": "movelock-1.9",
+      "caption": "Calendario semanal y Dynamic Island real.",
+      "date": "2026-06-16T21:35:00+02:00",
+      "appID": "com.blulyk.FocusGeofence",
+      "tintColor": "#1F5EF0"
+    },
+    {
+      "title": "MoveLock 1.8",
+      "identifier": "movelock-1.8",
+      "caption": "Dos cuadrados Liquid Glass en la pantalla bloqueada.",
+      "date": "2026-06-16T21:06:00+02:00",
+      "appID": "com.blulyk.FocusGeofence",
+      "tintColor": "#1F5EF0"
+    },
+    {
+      "title": "MoveLock 1.7",
+      "identifier": "movelock-1.7",
+      "caption": "Mapa de bloqueo a pantalla completa con ruta y emergencia.",
+      "date": "2026-06-16T20:58:00+02:00",
+      "appID": "com.blulyk.FocusGeofence",
+      "tintColor": "#1F5EF0"
+    },
+    {
+      "title": "MoveLock 1.6",
+      "identifier": "movelock-1.6",
+      "caption": "Perfil demo, sesion rapida y pildora bloqueado/desbloqueado.",
+      "date": "2026-06-16T12:08:00+02:00",
+      "appID": "com.blulyk.FocusGeofence",
+      "tintColor": "#1F5EF0"
+    },
+    {
+      "title": "MoveLock 1.5",
+      "identifier": "movelock-1.5",
+      "caption": "Sesiones programadas reales: guardar ya no activa de inmediato.",
+      "date": "2026-06-16T10:49:00+02:00",
+      "appID": "com.blulyk.FocusGeofence",
+      "tintColor": "#1F5EF0"
+    },
+    {
+      "title": "MoveLock 1.4",
+      "identifier": "movelock-1.4",
+      "caption": "Datos reales, mapa por ubicacion del usuario y destinos personalizados.",
+      "date": "2026-06-16T10:29:00+02:00",
+      "appID": "com.blulyk.FocusGeofence",
+      "tintColor": "#1F5EF0"
+    },
+    {
+      "title": "MoveLock 1.3",
+      "identifier": "movelock-1.3",
+      "caption": "Interfaz completa tipo startup: onboarding, dashboard y creador de sesiones.",
+      "date": "2026-06-16T10:11:00+02:00",
+      "appID": "com.blulyk.FocusGeofence",
+      "tintColor": "#1F5EF0"
+    },
+    {
+      "title": "Focus Geofence 1.2",
+      "identifier": "focus-geofence-1.2",
+      "caption": "Mapa centrado, multiples ubicaciones, modo estricto e icono iOS.",
+      "date": "2026-06-16T09:19:00+02:00",
+      "appID": "com.blulyk.FocusGeofence",
+      "tintColor": "#2563EB"
+    },
+    {
+      "title": "Focus Geofence 1.1",
+      "identifier": "focus-geofence-1.1",
+      "caption": "Mapa, ubicaciones guardadas e interfaz Liquid Glass revisada.",
+      "date": "2026-06-16T08:34:00+02:00",
+      "appID": "com.blulyk.FocusGeofence",
+      "tintColor": "#2563EB"
+    }
+  ]
 }
