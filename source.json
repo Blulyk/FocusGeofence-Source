@@ -19,8 +19,17 @@
       "iconURL": "https://raw.githubusercontent.com/Blulyk/FocusGeofence-Source/main/caltracker-icon.png",
       "tintColor": "#1F63F2",
       "category": "health",
-      "downloadURL": "https://github.com/Blulyk/FocusGeofence-Source/releases/download/caltracker-v1.3.4/CalTracker.ipa",
+      "downloadURL": "https://github.com/Blulyk/FocusGeofence-Source/releases/download/caltracker-v1.4.5/CalTracker.ipa",
       "versions": [
+        {
+          "version": "1.4",
+          "buildVersion": "5",
+          "date": "2026-06-26T13:26:37+02:00",
+          "localizedDescription": "Corrige el anillo diario: separacion real entre comidas, seleccion tactil por segmento, centro con la comida elegida, barra de agua sin arranque en linea, Coach IA ampliable y detalles honestos de la API de Gemini.",
+          "downloadURL": "https://github.com/Blulyk/FocusGeofence-Source/releases/download/caltracker-v1.4.5/CalTracker.ipa",
+          "size": 4348406,
+          "minOSVersion": "17.0"
+        },
         {
           "version": "1.3",
           "buildVersion": "4",
@@ -190,6 +199,14 @@
     }
   ],
   "news": [
+    {
+      "title": "CalTracker 1.4",
+      "identifier": "caltracker-1.4",
+      "caption": "Anillo diario interactivo, agua corregida y Coach IA ampliable.",
+      "date": "2026-06-26T13:26:37+02:00",
+      "appID": "com.blulyk.CalTracker",
+      "tintColor": "#1F63F2"
+    },
     {
       "title": "CalTracker 1.3",
       "identifier": "caltracker-1.3",
